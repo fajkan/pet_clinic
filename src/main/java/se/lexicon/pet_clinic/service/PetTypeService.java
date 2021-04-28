@@ -8,8 +8,6 @@ import java.util.List;
 
 public interface PetTypeService {
 
-    // todo: define SAVE, UPDATE, DELETE, Find All, FIND BY ID
-
     PetTypeDto save(PetTypeDto dto);
 
     PetTypeDto update(PetTypeDto dto) throws DataNotFoundException;
